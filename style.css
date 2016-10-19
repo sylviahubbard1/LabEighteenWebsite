@@ -1,0 +1,103 @@
+﻿p {
+    line-height: 1em;
+}
+
+h1, h2, h3, h4 {
+    color: mediumpurple;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+a {
+    color: deeppink;
+    text-decoration: none;
+}
+
+    a:hover, 
+    a:active {
+        text-decoration: underline;
+    }
+
+
+body {
+    font-family: arial;
+    font-size: 80%;
+    line-height: 1.2em;
+    width: 100%;
+    margin: 0;
+    background: #6f1279;
+}
+
+#page {
+    margin: 20px;
+}
+
+#logo {
+    width: 35%;
+    margin-top: 5px;
+    font-family: Georgia;
+    display: inline-block;
+}
+
+#nav {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+    #nav ul {
+    }
+
+        #nav ul li {
+            display: inline-block;
+            height: 62px;
+        }
+
+            #nav ul li a {
+                padding: 20px;
+                background: white;
+                color: violet;
+            }
+
+                #nav ul li a:hover {
+                    background-color: #e1cfe5; box-shadow: 0px 1px 1px mediumpurple;
+                }
+
+                #nav ul li a:active {
+                    background-color: deeppink;
+                }
+
+#content {
+    margin: 30px 0;
+    background: white;
+    padding: 20px;
+    clear: both;
+}
+#footer{
+    border-bottom: 1px #e1cfe5 solid;
+    margin-bottom: 10px
+}
+#footer p{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: gre;
+}
+#content,
+ul li a {box-shadow: 0px 1px 1px violet;}
+
+img {
+    margin:10px;
+    border:5px solid mediumpurple;
+    
+}
